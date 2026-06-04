@@ -1,8 +1,8 @@
 [build]
-builder = "dockerfile"
+builder = "NIXPACKS"
 
 [deploy]
-healthcheckPath = ""
+healthcheckPath = "/openclaw"
 healthcheckTimeout = 300
 restartPolicyType = "on_failure"
 
